@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ Bookstore Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>XYZ Bookstore</h1>
+        <p>Browse our collection of amazing books!</p>
+      </header>
+      <section aria-labelledby="books-heading">
+        <h2 id="books-heading">Our Books</h2>
+        <div class="card-container">
+          <article class="card" id="sally-adventure-book">
+            <h3>Sally's SciFi Adventure</h3>
+            <p>
+              This is an epic story of Sally and her dog Rex as they navigate
+              through other worlds.
+            </p>
+            <button class="btn" aria-label="Buy Sally's SciFi Adventure">
+              Buy Now
+            </button>
+          </article>
+          <article class="card" id="dave-cooking-book">
+            <h3>Dave's Cooking Adventure</h3>
+            <p>
+              This is the story of Dave as he learns to cook everything from
+              pancakes to pasta, one recipe at a time.
+            </p>
+            <button class="btn" aria-label="Buy Dave's Cooking Adventure">
+              Buy Now
+            </button>
+          </article>
+        </div>
+      </section>
+      <footer>
+        <p>Review your selections and continue to checkout.</p>
+        <div class="btn-container">
+          <button id="view-cart-btn" class="btn">View Cart</button>
+          <button id="checkout-btn" class="btn">Checkout</button>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
